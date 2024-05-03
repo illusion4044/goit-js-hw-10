@@ -8,7 +8,7 @@ const datePicker = document.querySelector('#datetime-picker');
 const timerFields = {
   days: document.querySelector('[data-days]'),
   hours: document.querySelector('[data-hours]'),
-  minutes: document.query.querySelector('[data-minutes]'),
+  minutes: document.querySelector('[data-minutes]'),
   seconds: document.querySelector('[data-seconds]'),
 };
 
