@@ -1,0 +1,2 @@
+import{i as o}from"./vendor-77e16229.js";const i=document.querySelector(".form");i.addEventListener("submit",r=>{r.preventDefault();const s=new FormData(i),t=parseInt(s.get("delay"),10),m=s.get("state");new Promise((e,n)=>{setTimeout(()=>{m==="fulfilled"?e(t):n(t)},t)}).then(e=>{o.success({title:"✅ Успіх",message:`✅ Fulfilled promise in ${e}ms`,position:"topRight"})}).catch(e=>{o.error({title:"❌ Відмова",message:`❌ Rejected promise in ${e}ms`,position:"topRight"})})});
+//# sourceMappingURL=2-snackbar-afe4eb06.js.map
